@@ -1,0 +1,159 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@300&display=swap');
+
+.circle{
+    position: fixed;
+    bottom: 40px;
+    width:85px;
+    height:85px;
+    margin-left: 50px;
+    background-color:#dc3545;
+    border-radius: 200%;
+}
+
+.circle .close{
+    font-size: 22px;
+    text-align: center;
+    margin-top: 15px;
+    font-family: 'Shadows Into Light', cursive;
+    line-height: 1.2;
+    cursor: pointer;
+    color: white;
+}
+.cls{
+    font-size: 32px !important;
+    margin-top: 24px !important;
+}
+.firsat{
+    margin-left: 50px;
+    position: fixed;
+    bottom: 40px;
+    font-family: 'Exo 2', sans-serif;
+    left:150px;
+    width: 400px;
+    height: 350px;
+    border-radius: 20px;
+    z-index: 1;
+    background-color: white;
+    display: none;
+}
+
+.firsat p{
+    margin-top: 0px;
+    height: 45px;
+    text-align: center;
+    color: white;
+    font-size: 23px;
+    background-color: #dc3545;
+    padding-top: 18px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.firsat img{
+    display: inline;
+    width: 160px;
+    height: 200px;
+    margin-top: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+    float: left;
+}
+.firsat h4{
+    display: inline;
+    position: absolute;
+    top:68px;
+    right: 12px;
+    font-size: 18px;
+}
+
+.firsat .eski{
+    display: block;
+    text-align: center;
+    padding-top: 29px;
+    font-size: 20px;
+    text-decoration: line-through;
+    opacity: 0.6;
+    width: 390px;
+    height: 49px;
+}
+
+.firsat span{
+    display: block;
+    text-align: center;
+    font-size: 27px;
+    width: 390px;
+    height: 49px;
+}
+
+.btn-danger{
+    width: 150px;
+    height: 38px;
+    margin-top: 15px;
+    margin-left: 26px;
+    border-radius: 10px;
+    font-size:18px;
+    font-family: 'Exo 2', sans-serif;
+    background-color: #dc3545;
+    color: white;
+    border:none;
+}
+
+.active{
+    display: block;
+}
+
+@media only screen and (max-width: 768px) and (min-width:0px) {
+    .circle{
+        margin-left: 10px;
+        width: 70px;
+        height: 70px;
+        font-size:16px;
+        margin-top: 0px;
+    }
+    .close{
+        margin-top: 9px !important;
+    }
+    .cls{
+        margin-top:15px !important
+    }
+    .firsat{
+        width:303px !important;
+        height: 258px !important;
+        margin-left: 3px;
+        left:94px;
+    }
+    .firsat img{
+        width: 100px !important;
+        height: 130px !important;
+        padding-top: 8px;
+    }
+    .firsat h4{
+        right:9px;
+        font-size: 15px;
+        top: 53px;
+    }
+    .firsat p{
+        padding-top: 14px;
+        padding-bottom: 0px;
+        font-size: 18px;
+        height: 35px;
+    }
+    .firsat .eski{
+        padding-top: 45px;
+        font-size: 16px;
+    }
+    .firsat span{
+        margin-top:-26px;
+        margin-left: -91px;
+        font-size: 22px;
+    }
+    .btn-danger{
+        width: 110px;
+        height: 33px;
+        margin-top: -17px;
+        margin-left: 157px;
+        font-size: 16px;
+    }
+    
+}
